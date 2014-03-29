@@ -1,3 +1,7 @@
+**Attention**
+
+This is a fork of MediaElch. The original repository is here: https://github.com/Komet/MediaElch.
+
 MediaElch
 =========
 
