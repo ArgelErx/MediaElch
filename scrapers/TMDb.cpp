@@ -374,6 +374,7 @@ QList<ScraperSearchResult> TMDb::parseSearch(QString json, int *nextPage)
             result.name     = it.value().property("title").toString();
             if (result.name.isEmpty())
                 it.value().property("original_title").toString();
+            result.overview = it.value().property( "overview" ).toString();
             result.id       = it.value().property("id").toString();
             result.released = QDate::fromString(it.value().property("release_date").toString(), "yyyy-MM-dd");
             results.append(result);
@@ -383,6 +384,7 @@ QList<ScraperSearchResult> TMDb::parseSearch(QString json, int *nextPage)
         result.name     = sc.property("title").toString();
         if (result.name.isEmpty())
             sc.property("original_title").toString();
+        result.overview = sc.property( "overview" ).toString();
         result.id       = sc.property("id").toString();
         result.released = QDate::fromString(sc.property("release_date").toString(), "yyyy-MM-dd");
         results.append(result);

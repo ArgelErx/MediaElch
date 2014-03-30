@@ -17,7 +17,7 @@
    <string>Search Result</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../MediaElch.qrc">
+   <iconset>
     <normaloff>:/img/MediaElch.png</normaloff>:/img/MediaElch.png</iconset>
   </property>
   <property name="modal">
@@ -43,12 +43,15 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="buttonClose">
-       <property name="text">
-        <string>Close</string>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
-       <property name="autoDefault">
-        <bool>false</bool>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
        </property>
       </widget>
      </item>
@@ -64,8 +67,6 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources>
-  <include location="../MediaElch.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

@@ -53,19 +53,36 @@ void MyLineEdit::resizeEvent(QResizeEvent *)
  * @brief Captures key events and emits signals based on the key
  * @param event
  */
-void MyLineEdit::keyPressEvent(QKeyEvent *event)
+void MyLineEdit::keyPressEvent( QKeyEvent* event )
 {
-    if (event->key() == Qt::Key_Down) {
-        emit keyDown();
-        return;
+    switch( event->key() )
+    {
+        case Qt::Key_Down:
+        {
+            emit keyDown();
+            return;
+        }
+
+        case Qt::Key_Up:
+        {
+            emit keyUp();
+            return;
+        }
+
+        case Qt::Key_Enter:
+        case Qt::Key_Return:
+        {
+            // Prevent autoDefault buttons from closing a dialog on Enter/Return.
+            emit this->returnPressed();
+            return;
+        }
     }
-    if (event->key() == Qt::Key_Up) {
-        emit keyUp();
-        return;
-    }
-    if (event->key() == Qt::Key_Backspace && cursorPosition() == 0) {
+
+    if( ( event->key() == Qt::Key_Backspace ) && ( cursorPosition() == 0 ) )
+    {
         emit backspaceInFront();
     }
+
     QLineEdit::keyPressEvent(event);
 }
 

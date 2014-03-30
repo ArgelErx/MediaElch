@@ -3365,11 +3365,6 @@ Main menu entry (tooltip)</extracomment>
         <source>Search Result</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../movies/MovieSearch.ui" line="48"/>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>MovieSearchWidget</name>
@@ -3379,170 +3374,172 @@ Main menu entry (tooltip)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="22"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="28"/>
         <source>Scraper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="55"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="61"/>
         <source>Activate to search by movie title.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="61"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="67"/>
         <source>Title:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="77"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="83"/>
         <source>Enter the movie title you wish to search for.
 Press the Enter key to start the search.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="94"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="100"/>
         <source>Activate to search by remote database id.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="100"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="106"/>
         <source>Id:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="116"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="122"/>
         <source>When using IMDB you can also use the IMDB id as search query.
 If you want to search by an TMDB or OFDb id please prefix it with &quot;id&quot;.
 Press the Enter key to start the search.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="160"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="149"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="193"/>
         <source>Result</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="187"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="254"/>
         <source>Infos to load</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="210"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="277"/>
         <source>Title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="217"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="284"/>
         <source>Set</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="224"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="291"/>
         <source>Tagline</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="231"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="298"/>
         <source>Rating</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="238"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="305"/>
         <source>Released</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="245"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="312"/>
         <source>Runtime</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="252"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="319"/>
         <source>Director</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="259"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="326"/>
         <source>Writer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="266"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="333"/>
         <source>Certification</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="273"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="340"/>
         <source>Trailer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="280"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="213"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="347"/>
         <source>Overview</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="287"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="354"/>
         <source>Poster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="294"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="361"/>
         <source>Backdrop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="301"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="368"/>
         <source>Actors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="308"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="375"/>
         <source>Genres</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="315"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="382"/>
         <source>Studios</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="322"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="389"/>
         <source>Countries</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="329"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="396"/>
         <source>Tags</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="336"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="403"/>
         <source>Logo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="343"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="410"/>
         <source>Clear Art</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="350"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="417"/>
         <source>CD Art</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="357"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="424"/>
         <source>Banner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="364"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="431"/>
         <source>Thumb</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../movies/MovieSearchWidget.ui" line="378"/>
+        <location filename="../movies/MovieSearchWidget.ui" line="445"/>
         <source>(Un)Check all</source>
         <translation type="unfinished"></translation>
     </message>

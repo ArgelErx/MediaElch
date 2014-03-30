@@ -2,24 +2,27 @@
 #include "ui_MovieSearch.h"
 
 #include <QDebug>
+#include <QPushButton>
 
 /**
  * @brief MovieSearch::MovieSearch
  * @param parent
  */
-MovieSearch::MovieSearch(QWidget *parent) :
-    QDialog(parent),
-    ui(new Ui::MovieSearch)
+MovieSearch::MovieSearch( QWidget* parent )
+    : QDialog( parent ),
+      ui( new Ui::MovieSearch )
 {
-    ui->setupUi(this);
+    ui->setupUi( this );
+
 #ifdef Q_OS_MAC
-    setWindowFlags((windowFlags() & ~Qt::WindowType_Mask) | Qt::Sheet);
-    setStyleSheet(styleSheet() + " #MovieSearch { border: 1px solid rgba(0, 0, 0, 100); border-top: none; }");
+    setWindowFlags( ( windowFlags() & ~Qt::WindowType_Mask ) | Qt::Sheet );
+    setStyleSheet( styleSheet() + " #MovieSearch { border: 1px solid rgba( 0, 0, 0, 100 ); border-top: none; }" );
 #else
-    setWindowFlags((windowFlags() & ~Qt::WindowType_Mask) | Qt::Dialog);
+    setWindowFlags( ( windowFlags() & ~Qt::WindowType_Mask ) | Qt::Dialog );
 #endif
-    connect(ui->buttonClose, SIGNAL(clicked()), this, SLOT(reject()));
-    connect(ui->movieSearchWidget, SIGNAL(sigResultClicked()), this, SLOT(accept()));
+
+    connect( this->ui->buttonBox, SIGNAL( accepted() ), this, SLOT( accept() ) );
+    connect( this->ui->buttonBox, SIGNAL( rejected() ), this, SLOT( reject() ) );
 }
 
 /**

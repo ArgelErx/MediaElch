@@ -86,11 +86,13 @@ Q_DECLARE_METATYPE(QString*)
 Q_DECLARE_METATYPE(QList<int>)
 
 /**
- * @brief The ScraperSearchResult struct
+ * @brief The ScraperSearchResult struct.
  */
-struct ScraperSearchResult {
+struct ScraperSearchResult
+{
     QString id;
     QString name;
+    QString overview;
     QDate released;
 };
 
